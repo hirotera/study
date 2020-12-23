@@ -78,3 +78,12 @@ php artisan serve
 php artisan tinker
 ```
 ちょっとしたデバッグなど､DBにデータを入れたい時に
+
+# とにかく困った時に試す
+```php
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+```
+そのまま｡エラーが消えなくて困ったらひととおり試してみよう｡
